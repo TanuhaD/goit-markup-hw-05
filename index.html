@@ -66,7 +66,7 @@
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button data-model-open class="button-studio" type="button">
+          <button data-modal-open class="button-studio" type="button">
             <span class="button-text"> Замовити послугу</span>
           </button>
         </div>
@@ -111,17 +111,32 @@
           <ul class="work-list">
             <li class="photo-work">
               <!-- <div class="product-thumb"> -->
-              <img class="img-work" src="./img/img1!.jpg" alt="робимо техничний проект" width="370" />
+              <img
+                class="img-work"
+                src="./img/img1!.jpg"
+                alt="робимо техничний проект"
+                width="370"
+              />
               <p class="work-description">Десктопні додатки</p>
-            <!-- </div> -->
+              <!-- </div> -->
             </li>
             <li class="photo-work">
-              <img class="img-work" src="./img/img2!.jpg" alt="создаємо інтерактивні елементи" width="370" />
+              <img
+                class="img-work"
+                src="./img/img2!.jpg"
+                alt="создаємо інтерактивні елементи"
+                width="370"
+              />
               <p class="work-description">Мобільні додатки</p>
             </li>
             <li class="photo-work">
-              <img class="img-work"src="./img/img3!.jpg" alt="розроблюємо зовнішній вигляд сайта" width="370" />
-              <p class="work-description" >Дизайнерські рішення</p>
+              <img
+                class="img-work"
+                src="./img/img3!.jpg"
+                alt="розроблюємо зовнішній вигляд сайта"
+                width="370"
+              />
+              <p class="work-description">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
@@ -391,14 +406,15 @@
       </div>
     </footer>
     <!-- modalne-windows -->
-    <div class="backdrop is-hidden" data-model>
-     <div class="modal">
-     <button class="button-model-close" data-model-close><svg width="30" height="30">
-      <use href="./img/x.svg"></use>
-    </svg>
-  </button>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="button-model-close" data-modal-close>
+          <svg class="button-model-close-icon" width="30" height="30">
+            <use href="./img/icons.svg#icon-cross"></use>
+          </svg>
+        </button>
+      </div>
     </div>
-  </div> 
     <script src="./js/modal.js"></script>
   </body>
 </html>
